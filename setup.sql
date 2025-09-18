@@ -14,7 +14,7 @@ CREATE TABLE authors (
 CREATE TABLE books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
-    author_id INT REFERENCES authors(id) ON  DELETE CASCADE,
+    author_id INT REFERENCES authors(id) ON DELETE CASCADE,
     genres TEXT[],
     published_year INT,
     available BOOLEAN DEFAULT TRUE
