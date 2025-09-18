@@ -19,7 +19,7 @@ SELECT * FROM books WHERE title = '1984';
  SET genres = array_append(genres, 'Classic')
  WHERE id = 2;
 
- DELETE FROM books WHERE title = 'Moby-Dick';
+ DELETE FROM books WHERE title = 'Moby Dick';
 
  DELETE FROM authors WHERE id = 6;
 
