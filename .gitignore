@@ -1,0 +1,8 @@
+# Create .gitignore to ignore the code folder
+echo "LibraryManagementSystem/" >> .gitignore
+
+# Add .gitignore to git
+git add .gitignore
+
+# Check what will be committed
+git status
